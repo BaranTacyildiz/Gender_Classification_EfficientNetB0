@@ -5,15 +5,16 @@
 import kagglehub
 
 path = kagglehub.dataset_download("cashutosh/gender-classification-dataset")
+
 print("Path to dataset files:", path)
 
 
 ## How to file directories must be designed
 
-./Project_Folder/
-                 ./Training/
-                 ./Validation/
-                 ./main.ipynb
+./Project_Folder ->
+                 ../Training/
+                 ../Validation/
+                 ../main.ipynb
 
 
 ## About the model
